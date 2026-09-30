@@ -1,10 +1,9 @@
-nilai_cukup = True
-kehadiran_cukup = True
-tugas_dikumpulkan = True
+ujian_utama = True
+ujian_pengganti = False
 
-hasil = nilai_cukup and kehadiran_cukup and tugas_dikumpulkan
+hasil = ujian_utama ^ ujian_pengganti
 
 if hasil:
-    print("LULUS UJIAN")
+    print("UJIAN VALID")
 else:
-    print("TIDAK LULUS UJIAN")
+    print("UJIAN TIDAK VALID")
