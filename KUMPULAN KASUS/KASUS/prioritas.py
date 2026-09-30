@@ -1,8 +1,7 @@
-pengguna_aktif = True
 kondisi_prioritas = True
-vip = False
+status_vip = False
 
-hasil = pengguna_aktif and (kondisi_prioritas or vip)
+hasil = kondisi_prioritas ^ status_vip
 
 if hasil:
     print("MENDAPAT PRIORITAS")
