@@ -23,6 +23,7 @@ Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam be
 ## Materi
 
 - Boolean
+- `xor`
 - `and`
 - `or`
 - `if-else`
