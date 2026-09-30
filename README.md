@@ -1,8 +1,11 @@
 # MODUL-1-MATEMATIKA-DISKRIT
 
-TUGAS PRAKTIKUM MODUL 1 MATEMATIKA DISKRIT
+**TUGAS PRAKTIKUM MODUL 1 MATEMATIKA DISKRIT**
+NAMA  = DHANDY PRATAMA ALGIFARIYANDI
+NIM   = 260306017
+KELAS = 1B
 
-# 8 Studi Kasus Python
+## 8 Studi Kasus Python
 
 Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam berbagai kondisi sederhana.
 
@@ -25,18 +28,29 @@ Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam be
 - `if-else`
 - Testing
 
-
 ## Menjalankan Program
 
-Pastikan Python sudah terinstall.
+Pastikan Python sudah terinstal.
 
-Windows:
+### Windows
+
+Tekan **Ctrl + R**, lalu ketik **cmd** untuk membuka Command Prompt.
 
 ~~~bash
 python nama_file.py
 ~~~
 
-macOS / Linux:
+Jika Python tidak dapat dijalankan, masuk ke folder tempat file Python berada menggunakan perintah:
+
+cd nama_folder_tempat_file_python
+
+Contoh:
+
+cd OneDrive/Document/...
+
+### macOS
+
+Tekan **Command + Spasi**, lalu ketik **Terminal** untuk membuka Terminal.
 
 ~~~bash
 python3 nama_file.py
