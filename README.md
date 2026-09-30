@@ -56,4 +56,4 @@ Tekan **Command + Spasi**, lalu ketik **Terminal** untuk membuka Terminal.
 python3 nama_file.py
 ~~~
 
-Ganti `nama_file.py` dengan nama file studi kasus yang ingin dijalankan.
+**Ganti `nama_file.py` dengan nama file studi kasus yang ingin dijalankan.**
