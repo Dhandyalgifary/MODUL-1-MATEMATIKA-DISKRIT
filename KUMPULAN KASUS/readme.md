@@ -6,14 +6,14 @@ Folder ini berisi 1 folder kumpulan studi kasus penerapan logika Boolean menggun
 
 | No | File | Studi Kasus | Boolean |
 |---|---|---|---|
-| 1 | `seleksi.py`        | Sistem Seleksi Peserta |
-| 2 | `login.py`          | Sistem Login |
-| 3 | `peminjaman.py`     | Peminjaman Buku |
-| 4 | `beasiswa.py`       | Sistem Beasiswa |
-| 5 | `akses_ruangan.py`  | Akses Ruangan |
-| 6 | `pembelian.py`      | Pembelian Online |
-| 7 | `kelulusan.py`      | Kelulusan Ujian |
-| 8 | `prioritas.py`      | Prioritas Pelayanan |
+| 1 | `seleksi.py`        | Sistem Seleksi Peserta | AND |
+| 2 | `login.py`          | Sistem Login | AND |
+| 3 | `peminjaman.py`     | Peminjaman Buku | AND |
+| 4 | `beasiswa.py`       | Sistem Beasiswa | OR |
+| 5 | `akses_ruangan.py`  | Akses Ruangan | OR |
+| 6 | `pembelian.py`      | Pembelian Online | OR |
+| 7 | `kelulusan.py`      | Kelulusan Ujian | XOR |
+| 8 | `prioritas.py`      | Prioritas Pelayanan | XOR |
 
 ## Pengujian
 
