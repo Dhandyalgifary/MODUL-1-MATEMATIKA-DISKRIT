@@ -26,6 +26,10 @@ Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam be
 - Testing
 
 ## Menjalankan Program
-
+UNTUK MAC
 ```bash
 python3 nama_file.py
+
+UNTUK MAC
+```bash
+python3 nama_file.py 
