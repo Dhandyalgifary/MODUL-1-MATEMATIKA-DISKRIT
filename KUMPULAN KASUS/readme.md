@@ -6,14 +6,14 @@ Folder ini berisi 8 studi kasus penerapan logika Boolean menggunakan Python.
 
 | No | File | Studi Kasus |
 |---|---|---|
-| 1 | `kasus_01_seleksi.py` | Sistem Seleksi Peserta |
-| 2 | `kasus_02_login.py` | Sistem Login |
-| 3 | `kasus_03_peminjaman.py` | Peminjaman Buku |
-| 4 | `kasus_04_beasiswa.py` | Sistem Beasiswa |
-| 5 | `kasus_05_akses_ruangan.py` | Akses Ruangan |
-| 6 | `kasus_06_pembelian.py` | Pembelian Online |
-| 7 | `kasus_07_kelulusan.py` | Kelulusan Ujian |
-| 8 | `kasus_08_prioritas.py` | Prioritas Pelayanan |
+| 1 | `kasus_seleksi.py`        | Sistem Seleksi Peserta |
+| 2 | `kasus_login.py`          | Sistem Login |
+| 3 | `kasus_peminjaman.py`     | Peminjaman Buku |
+| 4 | `kasus_beasiswa.py`       | Sistem Beasiswa |
+| 5 | `kasus_akses_ruangan.py`  | Akses Ruangan |
+| 6 | `kasus_pembelian.py`      | Pembelian Online |
+| 7 | `kasus_kelulusan.py`      | Kelulusan Ujian |
+| 8 | `kasus_prioritas.py`      | Prioritas Pelayanan |
 
 ## Pengujian
 
