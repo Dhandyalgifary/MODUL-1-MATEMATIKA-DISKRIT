@@ -19,4 +19,4 @@ Folder ini berisi 1 folder kumpulan studi kasus penerapan logika Boolean menggun
 
 Setiap studi kasus memiliki beberapa skenario pengujian dengan kombinasi kondisi `True` dan `False` untuk memastikan hasil program sesuai dengan logika yang digunakan.
 
-**hasil percobaan atau pengujian dapat di lihat di folder hasil pengujian.**
+**Hasil percobaan atau pengujian dapat di lihat di folder TABEL HASIL PENGUJIAN.**
