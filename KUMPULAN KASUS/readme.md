@@ -4,8 +4,8 @@ Folder ini berisi 1 folder kumpulan studi kasus penerapan logika Boolean menggun
 
 ## Daftar Studi Kasus
 
-| No | File | Studi Kasus |
-|---|---|---|
+| No | File | Studi Kasus | Boolean |
+|---|---|---|---|
 | 1 | `seleksi.py`        | Sistem Seleksi Peserta |
 | 2 | `login.py`          | Sistem Login |
 | 3 | `peminjaman.py`     | Peminjaman Buku |
