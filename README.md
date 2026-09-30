@@ -25,11 +25,21 @@ Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam be
 - `if-else`
 - Testing
 
-## Menjalankan Program
-UNTUK MAC
-```bash
-python3 nama_file.py
 
-UNTUK MAC
-```bash
-python3 nama_file.py 
+## Menjalankan Program
+
+Pastikan Python sudah terinstall.
+
+Windows:
+
+~~~bash
+python nama_file.py
+~~~
+
+macOS / Linux:
+
+~~~bash
+python3 nama_file.py
+~~~
+
+Ganti `nama_file.py` dengan nama file studi kasus yang ingin dijalankan.
