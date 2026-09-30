@@ -5,7 +5,7 @@
 - NIM   = 260306017
 - KELAS = 1B
 
-## 8 Studi Kasus Python
+## 8 Studi Kasus Python yang dapat di uji satu persatu
 
 Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam berbagai kondisi sederhana.
 
