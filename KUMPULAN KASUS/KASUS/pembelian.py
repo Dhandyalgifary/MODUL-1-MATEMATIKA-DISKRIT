@@ -1,10 +1,10 @@
-barang_tersedia = True
-pembayaran_berhasil = True
-alamat_tersedia = True
+transfer = False
+e_wallet = True
+kartu_kredit = False
 
-hasil = barang_tersedia and pembayaran_berhasil and alamat_tersedia
+hasil = transfer or e_wallet or kartu_kredit
 
 if hasil:
-    print("PESANAN DIPROSES")
+    print("PEMBAYARAN DITERIMA")
 else:
-    print("PESANAN GAGAL DIPROSES")
+    print("PEMBAYARAN DITOLAK")
