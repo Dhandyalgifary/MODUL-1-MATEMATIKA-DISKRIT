@@ -1,10 +1,10 @@
 # MODUL-1-MATEMATIKA-DISKRIT
-TUGAS PRAKTIKUM MODUL 1 MATEMATIKA DASAR
 
+TUGAS PRAKTIKUM MODUL 1 MATEMATIKA DISKRIT
 
 # 8 Studi Kasus Python
 
-Project ini berisi 8 studi kasus Python untuk mempelajari logika Boolean, `and`, `or`, dan `if-else`.
+Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam berbagai kondisi sederhana.
 
 ## Studi Kasus
 
@@ -29,7 +29,3 @@ Project ini berisi 8 studi kasus Python untuk mempelajari logika Boolean, `and`,
 
 ```bash
 python3 nama_file.py
-
-Delapan studi kasus ini menunjukkan penerapan logika Boolean dalam berbagai situasi sederhana. Setiap kasus menggunakan kondisi yang berbeda untuk menghasilkan keputusan berdasarkan input yang diberikan.
-
-Project ini menjadi latihan dasar untuk memahami logika program Python sebelum mempelajari konsep yang lebih kompleks.
