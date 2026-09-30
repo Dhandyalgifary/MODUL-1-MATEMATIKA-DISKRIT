@@ -5,6 +5,6 @@ akun_aktif = True
 hasil = username_benar and password_benar and akun_aktif
 
 if hasil:
-    print("LOGIN BERHASIL")
+    print("LOGIN BERHASIL.")
 else:
-    print("LOGIN GAGAL")
+    print("LOGIN GAGAL.")
