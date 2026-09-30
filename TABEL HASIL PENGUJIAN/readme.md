@@ -2,82 +2,80 @@
 
 Tabel pengujian digunakan untuk menguji setiap studi kasus dengan beberapa kombinasi kondisi `True` dan `False`.
 
-## 1. Sistem Seleksi Peserta
+## 1. Sistem Seleksi Peserta - AND
 
 | Aktif | Nilai | Prasyarat | Hasil |
 |---|---|---|---|
-| True | True | True | LULUS |
-| True | True | False | TIDAK LULUS |
-| True | False | True | TIDAK LULUS |
-| False | True | True | TIDAK LULUS |
-| False | False | False | TIDAK LULUS |
+| True | True | True | LULUS SELEKSI |
+| False | True | True | TIDAK LULUS SELEKSI |
+| True | False | True | TIDAK LULUS SELEKSI |
+| True | True | False | TIDAK LULUS SELEKSI |
+| False | False | False | TIDAK LULUS SELEKSI |
 
-## 2. Sistem Login
+## 2. Sistem Login - AND
 
 | Username | Password | Akun Aktif | Hasil |
 |---|---|---|---|
 | True | True | True | LOGIN BERHASIL |
-| True | False | True | LOGIN GAGAL |
 | False | True | True | LOGIN GAGAL |
+| True | False | True | LOGIN GAGAL |
 | True | True | False | LOGIN GAGAL |
 | False | False | False | LOGIN GAGAL |
 
-## 3. Peminjaman Buku
+## 3. Peminjaman Buku - AND
 
 | Anggota | Tidak Ada Denda | Buku Tersedia | Hasil |
 |---|---|---|---|
 | True | True | True | PEMINJAMAN BERHASIL |
-| True | True | False | PEMINJAMAN GAGAL |
-| True | False | True | PEMINJAMAN GAGAL |
 | False | True | True | PEMINJAMAN GAGAL |
+| True | False | True | PEMINJAMAN GAGAL |
+| True | True | False | PEMINJAMAN GAGAL |
 | False | False | False | PEMINJAMAN GAGAL |
 
-## 4. Sistem Beasiswa
+## 4. Sistem Beasiswa - OR
 
-| IPK Cukup | Mahasiswa Aktif | Prestasi | Sertifikat | Hasil |
-|---|---|---|---|---|
-| True | True | True | False | LOLOS BEASISWA |
-| True | True | False | True | LOLOS BEASISWA |
-| True | True | False | False | TIDAK LOLOS |
-| True | False | True | True | TIDAK LOLOS |
-| False | True | True | True | TIDAK LOLOS |
-
-## 5. Akses Ruangan
-
-| Kartu Aktif | Pengguna Aktif | Izin Khusus | Admin | Hasil |
-|---|---|---|---|---|
-| True | True | True | False | AKSES DITERIMA |
-| True | True | False | True | AKSES DITERIMA |
-| True | True | False | False | AKSES DITOLAK |
-| True | False | True | True | AKSES DITOLAK |
-| False | True | True | True | AKSES DITOLAK |
-
-## 6. Pembelian Online
-
-| Barang Tersedia | Pembayaran | Alamat | Hasil |
+| Prestasi | Sertifikat | Rekomendasi | Hasil |
 |---|---|---|---|
-| True | True | True | PESANAN DIPROSES |
-| True | True | False | PESANAN GAGAL |
-| True | False | True | PESANAN GAGAL |
-| False | True | True | PESANAN GAGAL |
-| False | False | False | PESANAN GAGAL |
+| True | False | False | MEMENUHI KRITERIA BEASISWA |
+| False | True | False | MEMENUHI KRITERIA BEASISWA |
+| False | False | True | MEMENUHI KRITERIA BEASISWA |
+| True | True | False | MEMENUHI KRITERIA BEASISWA |
+| False | False | False | TIDAK MEMENUHI KRITERIA BEASISWA |
 
-## 7. Kelulusan Ujian
+## 5. Akses Ruangan - OR
 
-| Nilai | Kehadiran | Tugas | Hasil |
+| Admin | Dosen | Petugas | Hasil |
 |---|---|---|---|
-| True | True | True | LULUS |
-| True | True | False | TIDAK LULUS |
-| True | False | True | TIDAK LULUS |
-| False | True | True | TIDAK LULUS |
-| False | False | False | TIDAK LULUS |
+| True | False | False | AKSES DITERIMA |
+| False | True | False | AKSES DITERIMA |
+| False | False | True | AKSES DITERIMA |
+| True | True | False | AKSES DITERIMA |
+| False | False | False | AKSES DITOLAK |
 
-## 8. Prioritas Pelayanan
+## 6. Pembelian Online - OR
 
-| Pengguna Aktif | Kondisi Prioritas | VIP | Hasil |
+| Transfer | E-Wallet | Kartu Kredit | Hasil |
 |---|---|---|---|
-| True | True | False | MENDAPAT PRIORITAS |
-| True | False | True | MENDAPAT PRIORITAS |
-| True | False | False | TIDAK MENDAPAT PRIORITAS |
-| False | True | True | TIDAK MENDAPAT PRIORITAS |
-| False | False | False | TIDAK MENDAPAT PRIORITAS |
+| True | False | False | PEMBAYARAN DITERIMA |
+| False | True | False | PEMBAYARAN DITERIMA |
+| False | False | True | PEMBAYARAN DITERIMA |
+| True | True | False | PEMBAYARAN DITERIMA |
+| False | False | False | PEMBAYARAN DITOLAK |
+
+## 7. Kelulusan Ujian - XOR
+
+| Ujian Utama | Ujian Pengganti | Hasil |
+|---|---|---|
+| True | False | UJIAN VALID |
+| False | True | UJIAN VALID |
+| True | True | UJIAN TIDAK VALID |
+| False | False | UJIAN TIDAK VALID |
+
+## 8. Prioritas Pelayanan - XOR
+
+| Kondisi Prioritas | Status VIP | Hasil |
+|---|---|---|
+| True | False | MENDAPAT PRIORITAS |
+| False | True | MENDAPAT PRIORITAS |
+| True | True | TIDAK MENDAPAT PRIORITAS |
+| False | False | TIDAK MENDAPAT PRIORITAS |
