@@ -17,4 +17,4 @@ Folder ini berisi 8 studi kasus penerapan logika Boolean menggunakan Python.
 
 ## Pengujian
 
-Setiap studi kasus memiliki beberapa skenario pengujian dengan kombinasi kondisi `True` dan `False` untuk memastikan hasil program sesuai dengan logika yang digunakan.
+Setiap studi kasus memiliki beberapa skenario pengujian dengan kombinasi kondisi `True` dan `False` untuk memastikan hasil program sesuai dengan logika yang digunakan dan hasil percobaan dapat di lihat di folder hasil pengujian.
