@@ -1,11 +1,10 @@
-ipk_cukup = True
-mahasiswa_aktif = True
 prestasi = True
 sertifikat = False
+rekomendasi = False
 
-hasil = ipk_cukup and mahasiswa_aktif and (prestasi or sertifikat)
+hasil = prestasi or sertifikat or rekomendasi
 
 if hasil:
-    print("LOLOS BEASISWA")
+    print("MEMENUHI KRITERIA BEASISWA")
 else:
-    print("TIDAK LOLOS BEASISWA")
+    print("TIDAK MEMENUHI KRITERIA BEASISWA")
