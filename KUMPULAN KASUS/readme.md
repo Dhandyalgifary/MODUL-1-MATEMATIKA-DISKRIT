@@ -1,20 +1,22 @@
 # Studi Kasus
 
-Folder ini berisi 8 studi kasus penerapan logika Boolean menggunakan Python.
+Folder ini berisi 1 folder kumpulan studi kasus penerapan logika Boolean menggunakan Python yang dapat di uji.
 
 ## Daftar Studi Kasus
 
 | No | File | Studi Kasus |
 |---|---|---|
-| 1 | `kasus_seleksi.py`        | Sistem Seleksi Peserta |
-| 2 | `kasus_login.py`          | Sistem Login |
-| 3 | `kasus_peminjaman.py`     | Peminjaman Buku |
-| 4 | `kasus_beasiswa.py`       | Sistem Beasiswa |
-| 5 | `kasus_akses_ruangan.py`  | Akses Ruangan |
-| 6 | `kasus_pembelian.py`      | Pembelian Online |
-| 7 | `kasus_kelulusan.py`      | Kelulusan Ujian |
-| 8 | `kasus_prioritas.py`      | Prioritas Pelayanan |
+| 1 | `seleksi.py`        | Sistem Seleksi Peserta |
+| 2 | `login.py`          | Sistem Login |
+| 3 | `peminjaman.py`     | Peminjaman Buku |
+| 4 | `beasiswa.py`       | Sistem Beasiswa |
+| 5 | `akses_ruangan.py`  | Akses Ruangan |
+| 6 | `pembelian.py`      | Pembelian Online |
+| 7 | `kelulusan.py`      | Kelulusan Ujian |
+| 8 | `prioritas.py`      | Prioritas Pelayanan |
 
 ## Pengujian
 
-Setiap studi kasus memiliki beberapa skenario pengujian dengan kombinasi kondisi `True` dan `False` untuk memastikan hasil program sesuai dengan logika yang digunakan dan hasil percobaan dapat di lihat di folder hasil pengujian.
+Setiap studi kasus memiliki beberapa skenario pengujian dengan kombinasi kondisi `True` dan `False` untuk memastikan hasil program sesuai dengan logika yang digunakan.
+
+**hasil percobaan atau pengujian dapat di lihat di folder hasil pengujian.**
