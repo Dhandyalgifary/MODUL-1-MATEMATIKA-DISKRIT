@@ -27,7 +27,7 @@ Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam be
 - `and`
 - `or`
 - `if-else`
-**Testing*
+**Testing**
 
 ## Menjalankan Program
 
