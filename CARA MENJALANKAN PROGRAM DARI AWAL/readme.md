@@ -14,4 +14,14 @@
 3. Untuk memastikan python sudah terinstall kalian mengetik `python --version` di cmd
 4. Code dapat di tulis di vscode atau dengan notepad
 5. Untuk membuka Notepad lewat cmd kalian ketikan `notepad nama_file.py`
-6. Setelah code ditulis dan di save kalian bisa run python di cmd dengan mengetik `python nama_file.py`
+7. Setelah code ditulis dan di save kalian bisa run python di cmd dengan mengetik `python nama_file.py`
+
+**MACOS**
+1. Buka aplikasi Terminal.
+2. Untuk memastikan Python sudah ter-install, ketik: `python3 --version`
+3. Code dapat ditulis menggunakan VS Code atau text editor lainnya.
+4. Jika ingin langsung menulis code di terminal kamu bisa membuat file Python dengan `touch nama_file.py` dan jika ingin mengeditnya langsung di terminal bisa mengetik `nano nama_file`
+5. Jalankan file Python dengan perintah: `python3 nama_file.py`
+
+
+# JIKA ERROR FILE TIDAK BISA DIJALANKAN SILAHKAN BACA README PEMBUKA REPOSTORY INI DI HALAMAN AWAL ATAU FOLDER AWAL
