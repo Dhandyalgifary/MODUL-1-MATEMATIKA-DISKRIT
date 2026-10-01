@@ -20,14 +20,14 @@ Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam be
 7. Kelulusan Ujian
 8. Prioritas Pelayanan
 
-## Materi
+## Alur materi
 
-- Boolean
+**Boolean**
 - `xor`
 - `and`
 - `or`
 - `if-else`
-- Testing
+**Testing*
 
 ## Menjalankan Program
 
