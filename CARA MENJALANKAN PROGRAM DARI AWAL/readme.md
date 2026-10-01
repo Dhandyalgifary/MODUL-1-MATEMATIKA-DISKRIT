@@ -23,5 +23,12 @@
 4. Jika ingin langsung menulis code di terminal kamu bisa membuat file Python dengan `touch nama_file.py` dan jika ingin mengeditnya langsung di terminal bisa mengetik `nano nama_file`
 5. Jalankan file Python dengan perintah: `python3 nama_file.py`
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# JIKA ERROR FILE TIDAK BISA DIJALANKAN DI CMD/TERMINAL SILAHKAN BACA README PEMBUKA REPOSTORY INI DI HALAMAN AWAL ATAU FOLDER AWAL
+*Untuk menyimpan git ini ke folder laptop anda bisa ketik ini di cmd/terminal*
+~~~bash
+git copy https://github.com/Dhandyalgifary/MODUL-1-MATEMATIKA-DISKRIT.git
+~~~
+
+
+## JIKA ERROR FILE TIDAK BISA DIJALANKAN DI CMD/TERMINAL SILAHKAN BACA README PEMBUKA REPOSTORY INI
