@@ -5,9 +5,8 @@
 - NIM   = 260306017
 - KELAS = 1B
 
-## 8 Studi Kasus Python yang dapat di uji satu persatu
-
-Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam berbagai kondisi sederhana.
+## Maksud Dan Tujuan Repository
+Repository ini dibuat untuk melengkapi tugas praktikum matematika diskrit, Repository ini juga berisi 8 project studi kasus Python untuk menerapkan     logika Boolean dalam berbagai kondisi sederhana. 
 
 ## Studi Kasus
 
@@ -20,7 +19,7 @@ Project ini berisi 8 studi kasus Python untuk menerapkan logika Boolean dalam be
 7. Kelulusan Ujian
 8. Prioritas Pelayanan
 
-## Alur materi
+## Alur Materi
 
 **Boolean**
 - `xor`
@@ -41,14 +40,6 @@ Tekan **Ctrl + R**, lalu ketik **cmd** untuk membuka Command Prompt.
 ~~~bash
 python nama_file.py
 ~~~
-
-Jika Python tidak dapat dijalankan, masuk ke folder tempat file Python berada menggunakan perintah:
-
-cd nama_folder_tempat_file_python
-
-Contoh:
-
-cd OneDrive/Document/...
 
 ### macOS
 
