@@ -9,7 +9,7 @@
 ## CARA MEMBUKA DAN MENJALANKAN PYTHON DI CMD(WINDOWS) ATAU TERMINAL(MACOS)
 
 **WINDOWS**
-1. Klik *ctrl + r* lalu muncul pop-up di pojok bawah
+1. Klik *Windows + r* lalu muncul pop-up di pojok bawah
 2. Ketikan *cmd* di pup-up lalu *ok* maka cmd akan terbuka
 3. Untuk memastikan python sudah terinstall kalian mengetik `python --version` di cmd
 4. Code dapat di tulis di vscode atau dengan notepad
