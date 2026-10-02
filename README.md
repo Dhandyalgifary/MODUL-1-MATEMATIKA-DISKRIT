@@ -35,7 +35,7 @@ Pastikan Python sudah terinstal.
 
 ### Windows
 
-Tekan **Ctrl + R**, lalu ketik **cmd** untuk membuka Command Prompt.
+Tekan **Windows + R**, lalu ketik **cmd** untuk membuka Command Prompt.
 
 ~~~bash
 python nama_file.py
