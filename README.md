@@ -1,9 +1,10 @@
 # MODUL-1-MATEMATIKA-DISKRIT
 
 **TUGAS PRAKTIKUM MODUL 1 MATEMATIKA DISKRIT**
-- NAMA  = DHANDY PRATAMA ALGIFARIYANDI
-- NIM   = 260306017
-- KELAS = 1B
+- NAMA          = DHANDY PRATAMA ALGIFARIYANDI
+- NIM           = 260306017
+- KELAS         = 1B
+- PROGRAM STUDI = TEKNOLOGI INFORMASI 
 
 ## Maksud Dan Tujuan Repository
 Repository ini dibuat untuk melengkapi tugas praktikum matematika diskrit, Repository ini juga berisi 8 project studi kasus Python untuk menerapkan     logika Boolean dalam berbagai kondisi sederhana. 
